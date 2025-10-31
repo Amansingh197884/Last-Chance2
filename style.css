@@ -651,3 +651,65 @@ background: transparent rgba(0, 0, 0, 0.05);
       box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
       border-radius: 10px;
     }
+
+    
+    .cardc-section {
+      background: url('https://i.pinimg.com/1200x/6c/0c/83/6c0c839c184f51047adae1785ac2164e.jpg')
+        no-repeat center center/cover;
+      min-height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      background-position: center;
+      padding: 30px 0;
+      position: relative;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+
+   .cardc-section .content-box {
+      background: rgba(211, 210, 210, 0.671);
+      backdrop-filter: blur(20px);
+      padding: 40px;
+      border-radius: 0px;
+      max-width: 500px;
+      margin-left: 5%;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+      color: #222;
+    }
+
+    .cardc-section .content-box h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+   .cardc-section .content-box p {
+      font-size: 0.95rem;
+      color: #363636;
+      margin-bottom: 25px;
+    }
+
+   .cardc-section .btn-custom {
+      background-color: #000;
+      color: #fff;
+      padding: 10px 25px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: 0.3s;
+    }
+
+   .cardc-section .btn-custom:hover {
+      background-color: #0c0c0c;
+      transform: translateY(-3px);
+      color: #f8f9fa;
+    }
+
+    @media (max-width: 768px) {
+     .cardc-section .content-box {
+        max-width: 90%;
+        margin: auto;
+        text-align: center;
+      }
+    }
