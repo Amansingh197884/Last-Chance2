@@ -96,8 +96,7 @@
                         </li>
 
                         <li class="nav-item mx-2">
-                            <a class="nav-link text-gray-900 btn-new" data-bs-toggle="modal"
-                                data-bs-target="#brochureModal" href="contact.html">Contact</a>
+                            <a class="nav-link text-gray-900 btn-new"data-bs-toggle="modal" data-bs-target="#contactModal">Contact</a>
                         </li>
 
                     </ul>
@@ -209,7 +208,7 @@
 <!-- new section  -->
  <section class="cardc-section">
     <div class="container">
-    <div class="row">
+    <div class="row g-4">
       <div class="col-lg-6">
           <div class="content-box">
         <h1>Best Interior Design<br>For Your Home</h1>
@@ -972,7 +971,56 @@
       });
     });
   </script>
+  <!-- popuo form  -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="row g-0">
+        <!-- Left Form -->
+        <div class="col-md-7 contact-left">
+          <h5 class="mb-4">Send your request</h5>
+          <form>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="col-md-6 mb-3">
+                <label class="form-label">Phone</label>
+                <input type="text" class="form-control" placeholder="Your Phone">
+              </div>
+              <div class="col-md-6 mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="Your Email">
+              </div>
+              <div class="col-md-6 mb-3">
+                <label class="form-label">Subject</label>
+                <input type="text" class="form-control" placeholder="Product Demo">
+              </div>
+              <div class="col-12 mb-4">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-send">SEND</button>
+          </form>
+        </div>
 
+        <!-- Right Info -->
+        <div class="col-md-5 contact-right d-flex flex-column justify-content-center">
+          <h5 class="mb-3">Reach Us</h5>
+          <p><strong>Email:</strong> contactus@example.com</p>
+          <p><strong>Phone:</strong> +1 012 345 6789</p>
+          <p><strong>Address:</strong><br>
+            #212, Ground floor, 7th cross<br>
+            Some Layout, Some Road, Koramangla<br>
+            Bengaluru 560001
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 
 </html>

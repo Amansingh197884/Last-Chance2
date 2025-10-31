@@ -668,14 +668,14 @@ background: transparent rgba(0, 0, 0, 0.05);
     }
 
    .cardc-section .content-box {
-      background: rgba(211, 210, 210, 0.671);
+      background: rgba(165, 164, 164, 0.566);
       backdrop-filter: blur(20px);
       padding: 40px;
       border-radius: 0px;
       max-width: 500px;
       margin-left: 5%;
       box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-      color: #222;
+      color: #ffffff;
     }
 
     .cardc-section .content-box h1 {
@@ -691,7 +691,7 @@ background: transparent rgba(0, 0, 0, 0.05);
     }
 
    .cardc-section .btn-custom {
-      background-color: #000;
+      background-color: var(--orange-show);
       color: #fff;
       padding: 10px 25px;
       border-radius: 5px;
@@ -710,6 +710,80 @@ background: transparent rgba(0, 0, 0, 0.05);
      .cardc-section .content-box {
         max-width: 90%;
         margin: auto;
+        text-align: center;
+      }
+    }
+    /* mm  */
+
+        .modal-content {
+      border-radius: 15px;
+      overflow: hidden;
+      border: none;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      animation: fadeInUp 0.6s ease;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        transform: translateY(30px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .modal-content .contact-left {
+      padding: 40px;
+      background: #fff;
+    }
+
+    .modal-content .contact-right {
+      background: var(--orange-show);
+      color: #fff;
+      padding: 40px;
+    }
+
+    .modal-content .contact-left h5, 
+    .contact-right h5 {
+      font-weight: 700;
+      color: var(--orange-show);
+    }
+
+    .modal-content .contact-right h5 {
+      color: #fff;
+    }
+
+   .modal-content  .form-control {
+      border: none;
+      border-bottom: 1px solid #ccc;
+      border-radius: 0;
+      padding-left: 0;
+      box-shadow: none !important;
+    }
+
+   .modal-content  .form-control:focus {
+      border-color: #15047d;
+    }
+
+    .modal-content .btn-send {
+      background: var(--orange-show);
+      color: #fff;
+      border-radius: 30px;
+      padding: 10px 30px;
+      font-weight: 600;
+      box-shadow: 0 4px 10px rgba(21, 4, 125, 0.4);
+      transition: all 0.3s ease;
+    }
+
+   .modal-content  .btn-send:hover {
+      background: #06014d;
+      transform: translateY(-3px);
+    }
+
+    @media (max-width: 768px) {
+    .modal-content   .contact-right {
         text-align: center;
       }
     }
