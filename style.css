@@ -482,10 +482,17 @@ color: var(--pg-show);
 }
 
  .testimonial {
-      background-color: var(--orange-show);
+      background-color: black;
       color: var(--white);
       padding: 2rem;
       border-radius: 10px;
+      
+      
+    }
+    .testimonial h4, h6, small
+    {
+              font-family: "Marcellus", serif;
+
     }
 
     .testimonial img {
@@ -547,10 +554,14 @@ color: var(--pg-show);
     .contact-title {
       text-align: center;
       margin-bottom: 20px;
+              font-family: "Marcellus", serif;
+
     }
 
     .contact-title h2 {
       font-weight: 600;
+              font-family: "Marcellus", serif;
+
     }
 
     .contact-info i {
@@ -567,6 +578,8 @@ color: var(--pg-show);
 
     .contact-info p {
       margin-bottom: 10px;
+              font-family: "Marcellus", serif;
+
     }
 
     .social-icons i {
@@ -600,7 +613,10 @@ background: transparent rgba(0, 0, 0, 0.05);
     padding-bottom: 20px !important;
     padding: 15px;
     }
+.contact-form h5{
+          font-family: "Marcellus", serif;
 
+}
     .contact-form .btn {
       background-color: #ff6600;
       border: none;
@@ -608,6 +624,8 @@ background: transparent rgba(0, 0, 0, 0.05);
       border-radius: 20px;
       padding: 10px 30px;
       transition: 0.3s;
+              font-family: "Marcellus", serif;
+
     }
 
 .inputBox {
@@ -615,7 +633,10 @@ background: transparent rgba(0, 0, 0, 0.05);
     width: 100%;
     margin-top: 10px;
 }
+.back h5, strong, div{
+          font-family: "Marcellus", serif;
 
+}
  .inputBox input,
  .inputBox textarea {
     /* padding: 2px 0px; */
@@ -625,6 +646,7 @@ background: transparent rgba(0, 0, 0, 0.05);
     border-bottom: 2px solid #ffffff !important;
     outline: none !important;
     resize: none !important;
+    
 }
  .inputBox input{
         padding: 7px 0px;
@@ -643,6 +665,8 @@ background: transparent rgba(0, 0, 0, 0.05);
     pointer-events: none;
     transition: 0.5s;
     color: #fff;
+            font-family: "Marcellus", serif;
+
 
 }
 
@@ -678,7 +702,7 @@ background: transparent rgba(0, 0, 0, 0.05);
 
     
     .cardc-section {
-      background: url('https://i.pinimg.com/1200x/6c/0c/83/6c0c839c184f51047adae1785ac2164e.jpg')
+      background:  url('https://i.pinimg.com/1200x/d5/aa/19/d5aa19ca134b0d79ab4e9130da7df75e.jpg')
         no-repeat center center/cover;
       min-height: 70vh;
       display: flex;
@@ -692,7 +716,8 @@ background: transparent rgba(0, 0, 0, 0.05);
     }
 
    .cardc-section .content-box {
-      background: rgba(165, 164, 164, 0.566);
+      background: rgba(0, 0, 0, 0.872);
+      /* background: transparent; */
       backdrop-filter: blur(20px);
       padding: 40px;
       border-radius: 0px;
@@ -712,7 +737,8 @@ background: transparent rgba(0, 0, 0, 0.05);
 
    .cardc-section .content-box p {
       font-size: 0.95rem;
-      color: #363636;
+      /* color: #363636; */
+      color: var(--pg-show);
       margin-bottom: 25px;
           font-family: "Marcellus", serif;
 
