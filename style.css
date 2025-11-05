@@ -760,8 +760,27 @@ background: transparent rgba(0, 0, 0, 0.05);
 
     }
 
+   .btn-customm:hover {
+      background-color: #ff7e1b;
+      transform: translateY(-3px);
+      color: #f8f9fa;
+    }
+
+   .btn-customm {
+      background-color: var(--orange-show) !important;
+      color: #fff !important;
+      padding: 10px 25px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: 0.3s;
+          font-family: "Marcellus", serif;
+          margin-top: 20px;
+
+    }
+
    .cardc-section .btn-custom:hover {
-      background-color: #0c0c0c;
+      background-color: #ff7e1b;
       transform: translateY(-3px);
       color: #f8f9fa;
     }
@@ -906,3 +925,12 @@ background: transparent rgba(0, 0, 0, 0.05);
       /* justify-content: center; */
       /* align-items: center; */
     }
+footer h5{
+  color: #ff911b;
+  font-size: 1.2rem;
+}
+footer h6{
+  color: #ff911b;
+
+  font-size: 1.2rem;
+}
