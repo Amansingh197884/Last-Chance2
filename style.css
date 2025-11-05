@@ -184,7 +184,11 @@ body {
     background-repeat: no-repeat;
     /* padding: 8px 8% !important; */
 }
-
+@media screen and (max-width:780px) {
+  .hero-section{
+    padding-bottom: 20px !important;
+  }
+}
 .hero_title h1{
 line-height: 5rem;
 }
